@@ -44,6 +44,8 @@ function appender(configuration)
 			loggingObject.environment = configuration.environment;
 		}
 
+		console.log(MDC);
+
 		if (MDC && MDC.active)
 		{
 			Object.keys(MDC.active).forEach(function(key)
@@ -64,3 +66,4 @@ function configure(configuration)
 
 exports.appender = appender;
 exports.configure = configure;
+exports.MDC = MDC;

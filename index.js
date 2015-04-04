@@ -1,6 +1,6 @@
 "use strict"
 
-var layouts = require('log4js').layouts;
+var layout = require('log4js').layouts.messagePassThroughLayout;
 var dgram = require('dgram');
 var util = require('util');
 var storage = require('continuation-local-storage');
@@ -22,7 +22,6 @@ function send(socket, host, port, loggingObject)
 /** Returns the appender. */
 function appender(configuration)
 {
-	var layout = layouts.basicLayout;
 	var socket = dgram.createSocket('udp4');
 
 	return function(loggingEvent)

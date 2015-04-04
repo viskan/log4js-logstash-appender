@@ -1,6 +1,6 @@
 {
   "name": "log4js-logstash-appender",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Logstash appender for the log4js framework, with support for MDC.",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/Viskan/log4js-logstash-appender",
   "dependencies": {
-    "continuation-local-storage": "^3.1.4"
+    "continuation-local-storage": "3.1.4"
   }
 }

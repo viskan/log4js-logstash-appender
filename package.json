@@ -1,0 +1,29 @@
+{
+  "name": "log4js-logstash-appender",
+  "version": "0.0.1",
+  "description": "Logstash appender for the log4js framework, with support for MDC.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Viskan/log4js-logstash-appender.git"
+  },
+  "keywords": [
+    "log4js",
+    "logging",
+    "log",
+    "logstash",
+    "mdc"
+  ],
+  "author": "Anton Johansson <antoon.johansson@gmail.com>",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/Viskan/log4js-logstash-appender/issues"
+  },
+  "homepage": "https://github.com/Viskan/log4js-logstash-appender",
+  "dependencies": {
+    "continuation-local-storage": "^3.1.4"
+  }
+}
